@@ -28,8 +28,8 @@
             contact_html += "linkedIn.com/in/ryanjarvinen</a></li>";
             contact_html += "<li><a href='http://www.meetup.com/members/5799882/'><img alt='meetup' src='images/contact/meetup_icon.png'/>";
             contact_html += "meetup.com/members/5799882/</a></li>";
-            contact_html += "<li><a href='https://github.com/ryanjarvinen'><img alt='github' src='images/contact/github_icon.png'/>";
-            contact_html += "github.com/ryanjarvinen</a></li>";
+            contact_html += "<li><a href='https://github.com/ryanj'><img alt='github' src='images/contact/github_icon.png'/>";
+            contact_html += "github.com/ryanj</a></li>";
             contact_html += "<li><a href='mailto:rya" + "n@r";
             contact_html += "yanjarvinen.com?subject=job%20availability'><img alt='email' src='images/contact/email_icon.png'/>rya" + "n@r";
             contact_html += "yanjarvine" + "n.com</a></li>";
