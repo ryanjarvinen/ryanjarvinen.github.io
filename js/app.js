@@ -34,6 +34,8 @@
             contact_html += "stackoverflow.com/users/754025</a></li>";
             contact_html += "<li><a href='http://en.gravatar.com/rya" + "njarvinen'><img alt='gravatar' style='border-radius: 6px;-webkit-border-radius: 6px;-moz-border-radius:6px;height:2.5em;width:2.5em;' src='images/contact/gravatar_icon.png'/>";
             contact_html += "gravatar.com/ryanjarvinen</a></li>";
+            contact_html += "<li><a href='https://plus.google.com/105879391995197697236' rel='publisher'><img alt='googlePlus' src='images/contact/g+logobleed.png'/>";
+            contact_html += "plus.google.com/105879391995197697236</a></li>";
             contact_html += "<li><a href='mailto:rya" + "n@r";
             contact_html += "yanjarvinen.com?subject=job%20availability'><img alt='email' src='images/contact/email_icon.png'/>rya" + "n@r";
             contact_html += "yanjarvine" + "n.com</a></li>";
@@ -58,6 +60,9 @@
         function showMii(){
             $('#portrait').attr('src','images/ryan-mii.png');
         }
+        function showTweets(){
+            $('#page_content').html("<a class='twitter-timeline' href='https://twitter.com/ryanj' data-widget-id='312362833675419648'>Tweets by @ryanj</a><scipt><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='//platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>");
+        }
 
 
 ///SAMMY app:
@@ -68,7 +73,7 @@
 
     //index page
     this.get('#/', function(context) {
-      $('#page_content').html("<img style='height:50%; width:80%;padding-top:10%; padding-right:5%;' src='images/hummingbird.gif' />");
+      showTweets();
       context.log('index page');
     });
 
