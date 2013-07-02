@@ -60,12 +60,13 @@
         function showMii(){
             $('#portrait').attr('src','images/ryan-mii.png');
         }
-        function fixtweets(){
+        function fixTweets(){
             $('#page_content > iframe').attr('height', '100%');
             $('#page_content > iframe').attr('width', '100%');
         }
         function showTweets(){
             $('#page_content').html("<a class='twitter-timeline' href='https://twitter.com/ryanj' data-widget-id='312362833675419648'>Tweets by @ryanj</a><scipt><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='//platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>");
+            setTimeout( fixTweets, 500);
             setTimeout( fixTweets, 1000);
             setTimeout( fixTweets, 3000);
             return false;
