@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/ryanj
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://ryanjarvinen.com
+  * I am ryanj (https://keybase.io/ryanj) on keybase.
+  * I have a public key with fingerprint EDA5 B268 5BB7 6C2E F0A6  2494 C24E 3213 1FFA 6747
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.14"
+        },
+        "key": {
+            "fingerprint": "eda5b2685bb76c2ef0a62494c24e32131ffa6747",
+            "host": "keybase.io",
+            "key_id": "C24E32131FFA6747",
+            "uid": "0e265a364730600315d69e7215f45300",
+            "username": "ryanj"
+        },
+        "merkle_root": {
+            "ctime": 1407803022,
+            "hash": "719fb3ab875ac56c06a43b469c755b0e2a26e541a38b41ed39179c0efd041f1785e50efe286bf742a9e03fe11d7d11b8cee6d15550ad16fcafc6c566efb5f47f",
+            "seqno": 35587
+        },
+        "service": {
+            "hostname": "ryanjarvinen.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1407803151,
+    "expire_in": 157680000,
+    "prev": "1682472cee732c98a8288256ffd29245fc6fca785d1d7414a15ab999349586de",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVkm1oHEUYx++iralvDYVaxVPjKmolHjOz87J7akNRYxELQkOjFHrM7DybbHvZ
+ve7upV6T1PaD1tQKBkTN0QhaFZImkYBKsdLg2weNoFVs/WAs+AIG1LaIVaKIsyFC
+Op9m5vk//+f5PTPPXXVJrim/fV1j2w1v3t2Xn51XuS3z5dX9lop03Sr1W14lgDDN
+dqHsBatk7YS6kgkUg6g1jDQUdyStS5o2qw/iJIhCo0JFWsTUGmzL9Fm2H4TdEFfj
+IDOzQEumCHeYUoJ7BHwkOaEu9QgFm2Ab+77kggrj2RMl6UVlrUXPcqDN7X2EPrCo
+7+jYuKSvLQYQEM6kzamwEUfIxkxzFwTBzKfMRigTJhAvMcV1Ge7Imu2FeGcFynEU
+LSJ7aZDFMUXCQTYixLQjkx6TIbDrK1sqRzDpMe4hLqmtKHc9wZgy1SXhwCiWtqMo
+Bm27WLgeAl8jin0sHAbMnIA4XPmCEukCsn3AWAuNsXI8AK4xYwxJjbnvSd/jpg4H
+XxkC4Zv+E9gVRlbJZswRg9kx7gs8yNrORracTJpICGHRi3pNXjWO0siLKibak6bV
+Usad1quZejeoqfKSUVkFoTaPtvxZsZFePBPMcJsFj1eDGMpBpmCCO8isrA70GU/M
+HUIFMUDCJp7rSIc4DmHc9zVxCWUGzOCZgWjDTjGVmEnluq5NXeZwDctITZ+y21gm
+QXco01oM1uBQvnBpLt+UW7miKfu3uctXtfz/mScPNOcOHTw1Y+0rjJAvB67+dW3r
+henRiSs739Ps1nN/jc+dnLlpX8tE5dzwP9fXXl61cqyjMbT51Iat+x8bfbde+PrA
+be0LC2+dLc0+vGbL/XNuM91wOCgcuvnC4UcGPuQDZ944en7zF6fTxor+B0fHN/3Y
+9EFt6O/3R+4482ijMdk+vWnvzDuvF2o59ELH5PZ/f6cfj744daz9o9oTz24sTX3W
++gt//sbhroN6l/x87brZe453jRztnx++K33yafZaZezEscvU+ROnn/oeWhbSO+l1
+Lz1z7fEjn14R7U3evveVb7tK22757uxYnk//sL658/b9amLPmtXrT/42/sfuwYde
+/erPn3+yjuzp3PrN3Cdj17j/AQ==
+=zblo
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ryanj
+
+==================================================================
