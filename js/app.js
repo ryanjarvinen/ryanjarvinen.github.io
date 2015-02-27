@@ -55,14 +55,20 @@
             return false;
         }
         function showMee(){
-            $('#portrait').attr('src','images/ryan-mee.jpg');
+            //$('#portrait').attr('src','images/ryan-mee.jpg');
+            $('#portrait').attr('src','images/ice_ryan_med.png');
         }
         function showMii(){
-            $('#portrait').attr('src','images/ryan-mii.png');
+            //$('#portrait').attr('src','images/ryan-mii.png');
+            $('#portrait').attr('src','images/sp_head.png');
         }
         function fixTweets(){
             $('#page_content > iframe').attr('height', '100%');
             $('#page_content > iframe').attr('width', '100%');
+        }
+        function showHome(){
+            showMii();
+            $('#page_content').html("<a href='https://twitter.com/ryanj/'><img style='width:100%;' src='images/ryanj-mestrefungo-com.gif '/></a><p style='font-size:small;'>avatar image by <a href='http://mestrefungo.com'>MSTRFNG</a>");
         }
         function showTweets(){
             $('#page_content').html("<a class='twitter-timeline' href='https://twitter.com/ryanj' data-widget-id='312362833675419648'>Tweets by @ryanj</a><scipt><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='//platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>");
@@ -81,7 +87,8 @@
 
     //index page
     this.get('#/', function(context) {
-      showTweets();
+      //showTweets();
+      showHome();
       context.log('index page');
     });
 

@@ -114,8 +114,7 @@ ul.submenu{ margin-left:1em; font-size:smaller;}
 	}
 #portrait_link {}
 #portrait { 
-	width:7em;
-	height:7em;
+	width:10em;
 	border:none;
     border:0.1em solid #DDD;
 	border-left:0px;
