@@ -24,14 +24,14 @@
         }
         function showContact(){
             contact_html = "<h1>Contact Info</h1><div style='height:80%;overflow-y:auto;'><ul id='contact_info'>";
-            contact_html += "<li><a href='http://twitter.com/ryan" + "j'><img alt='twitter' src='images/contact/twitter_icon.png'/>";
-            contact_html += "@rya" + "nj</a></li>";
+            //contact_html += "<li><a href='http://twitter.com/ryan" + "j'><img alt='twitter' src='images/contact/twitter_icon.png'/>";
+            //contact_html += "@rya" + "nj</a></li>";
             contact_html += "<li><a href='https://github.com/ryanj'><img alt='github' src='images/contact/github_icon.png'/>";
             contact_html += "github.com/ryanj</a></li>";
-            contact_html += "<li><a href='http://www.meetup.com/members/5799882/'><img alt='meetup' src='images/contact/meetup_icon.png'/>";
-            contact_html += "meetup.com/members/5799882/</a></li>";
-            contact_html += "<li><a href='http://stackoverflow.com/users/754025'><img alt='stackOverflow' src='images/contact/stackoverflow_icon.png'/>";
-            contact_html += "stackoverflow.com/users/754025</a></li>";
+            //contact_html += "<li><a href='http://www.meetup.com/members/5799882/'><img alt='meetup' src='images/contact/meetup_icon.png'/>";
+            //contact_html += "meetup.com/members/5799882/</a></li>";
+            //contact_html += "<li><a href='http://stackoverflow.com/users/754025'><img alt='stackOverflow' src='images/contact/stackoverflow_icon.png'/>";
+            //contact_html += "stackoverflow.com/users/754025</a></li>";
             contact_html += "<li><a href='http://en.gravatar.com/rya" + "njarvinen'><img alt='gravatar' style='border-radius: 6px;-webkit-border-radius: 6px;-moz-border-radius:6px;height:2.5em;width:2.5em;' src='images/contact/gravatar_icon.png'/>";
             contact_html += "gravatar.com/ryanjarvinen</a></li>";
             contact_html += "<li><a href='mailto:rya" + "n@r";
@@ -39,8 +39,8 @@
             contact_html += "yanjarvine" + "n.com</a></li>";
             contact_html += "<li><a href='http://www.linkedin.com/in/rya" + "njarvinen'><img alt='linkedIn' src='images/contact/linkedin_glossy.jpg'/>";
             contact_html += "linkedIn.com/in/ryanjarvinen</a></li>";
-            contact_html += "<li><a href='http://www.facebook.com/ryan.jar" + "vinen'><img alt='facebook' src='images/contact/facebook_icon.jpg'/>";
-            contact_html += "facebook.com/ryan.jarvinen</a></li>";
+            //contact_html += "<li><a href='http://www.facebook.com/ryan.jar" + "vinen'><img alt='facebook' src='images/contact/facebook_icon.jpg'/>";
+            //contact_html += "facebook.com/ryan.jarvinen</a></li>";
             contact_html += "</ul></div>";
 
             $('#page_content').html(contact_html);
